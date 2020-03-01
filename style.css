@@ -1,0 +1,17 @@
+
+
+#container{
+    display: flex;
+}
+
+#container div {
+    padding: 1rem;
+    border: solid 0.01rem rgb(170, 170, 170);
+    width: 33%;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+h4, p {
+    height: 2rem;
+}
