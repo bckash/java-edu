@@ -2,6 +2,7 @@
 
 #container{
     display: flex;
+    height: 17rem;
 }
 
 #container div {
@@ -14,4 +15,17 @@
 
 h4, p {
     height: 2rem;
+}
+
+#container div p {
+    height: 3rem;
+}
+
+.hidden {
+    display: none;
+    margin-top: 1rem;
+}
+
+.d3{
+    display: none;
 }
