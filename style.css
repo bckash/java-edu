@@ -1,4 +1,10 @@
 
+html {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hide & Show */
 
 #container{
     display: flex;
@@ -9,23 +15,32 @@
     padding: 1rem;
     border: solid 0.01rem rgb(170, 170, 170);
     width: 33%;
-    text-align: center;
     margin: 0.5rem;
 }
 
-h4, p {
-    height: 2rem;
-}
+h4, p {height: 2rem;}
 
-#container div p {
-    height: 3rem;
-}
+#container div p {height: 3rem;}
 
 .hidden {
     display: none;
     margin-top: 1rem;
 }
 
-.d3{
-    display: none;
+.d3{display: none;}
+
+/* Tesla */
+
+#tesla_pick{
+    width:70%;
+}
+
+#color_change {
+    padding: 0.2rem;
+    margin: 1rem;
+}
+
+#nike {
+    width: 4rem;
+    height: auto;
 }
